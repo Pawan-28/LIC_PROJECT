@@ -1,0 +1,68 @@
+/* AgentList.css */
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul li {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  color: #333;
+}
+
+ul li:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+ul li .agent-info {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+ul li .agent-info span {
+  padding: 0 10px;
+}
+
+ul li .agent-info .agent-name {
+  font-weight: bold;
+}
+
+ul li .agent-info .agent-contact {
+  color: #666;
+}
+
+ul li .agent-info .agent-license {
+  color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+  ul li {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}
