@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { Link } from "react-router-dom"; // Import Link
-import './AgentList.css';
+import './css/AgentList.css';
 
 function AgentForm() {
   const [formData, setFormData] = useState({

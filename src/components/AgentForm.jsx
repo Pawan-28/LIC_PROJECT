@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import './AgentForm.css';
+import './css/AgentForm.css';
 
 function AgentForm() {
   const [formData, setFormData] = useState({
